@@ -14,7 +14,7 @@
 |                  |>Definida las instrucciones de indexado en la función "move"
 |      0.03        |>Se crearon funciones publicas  en respuesta a ayudar en algunos 
 |                  |calculos a la clase.
-|                  |
+|                  |>Se modifica la funcion "merge", avisar cuando hay cambios en la linea.
 |                  |
 |                  |
 |                  |

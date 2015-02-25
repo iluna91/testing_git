@@ -1,6 +1,5 @@
 """
 Merge function for 2048 game. http://www.codeskulptor.org/#user39_NTx8Jn50VL_0.py  key:5j3H5rs4uq
-test to git
 """
 def adjust_line(line):
     """

@@ -1,6 +1,5 @@
 """
 Clone of 2048 game.
-test
 """
 import merge
 import random
