@@ -140,6 +140,7 @@ def my_test():
         coordinates.append(rand_grid_coordinate([[0,0],[0,1],[1,0],[1,1],[1,3],[3,4],[5,6]]))
     print coordinates    
     print list_rand
+    print list_rand,  "esto es una modificacoin test"
 
     
 my_test()

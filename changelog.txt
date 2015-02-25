@@ -15,8 +15,8 @@
 |      0.03        |>Se crearon funciones publicas  en respuesta a ayudar en algunos 
 |                  |calculos a la clase.
 |                  |>Se modifica la funcion "merge", avisar cuando hay cambios en la linea.
-|                  |
-|                  |
+|                  |>Se hacen test para verificar funcionamiento de los cambias a la funcion
+|                  |'merge'
 |                  |
 |                  |
 |                  |
