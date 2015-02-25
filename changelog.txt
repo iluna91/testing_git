@@ -1,0 +1,35 @@
+|                                                                                                                                                 |
+|                                                  Versiones del código del Juego 2048                                                            |                                                            ------|
+|                                                                                                                                                 |
+|------------------|------------------------------------------------------------------------|----------------------|------------------------------|
+|                  |                                                                        |                      |                              |
+|    versión       |                             descripción                                |        Fecha         |          Autor               |
+|------------------|------------------------------------------------------------------------|----------------------|------------------------------|
+|                  |>Se crearon las funciones init, reset, get_height, get_width,           |    22 - Feb - 2015   |     ilunaochoa@gmail.com     |
+|      0.01        | new_tile y parte de str. Probadas...                                   |                      |                              | 
+|------------------|------------------------------------------------------------------------|----------------------|------------------------------|
+|                  |>Definidas funciones get tile and set tile, así como sus pruebas de     |    23 - Feb - 2015   |     ilunaochoa@gmail.com     |
+|      0.02        |funcionamiento.                                                         |                      |                              |
+|------------------|------------------------------------------------------------------------|----------------------|------------------------------|
+|                  |>Definida las instrucciones de indexado en la función "move"
+|      0.03        |>Se crearon funciones publicas  en respuesta a ayudar en algunos 
+|                  |calculos a la clase.
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |
+|                  |                                                                        |                      |                              |
+|                  |
+                  |
+                  |
