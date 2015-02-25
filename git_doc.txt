@@ -1,0 +1,58 @@
+git add -A . = funcion aniadir; -A quiere decir ALL, es decir, todos los archi
+vos, y el punto '.' quiere decir: en el actual directorio.
+
+staged: archivos listos para ser remitidos.
+unstaged: archivos que no estan listos para ser remitidos
+untracked: generalmente aparece cuando se crea un archivo nuevo.
+
+staging Area: lugar donde se agrupan los archivos antes de ser remitidos(commited)
+a git.
+
+commit: "commit" es una captura de nuestro repositorio. asi, si alguna vez se
+ocupa ver archivos quitando los cambios que se le hicieron, podremos hacerlo 
+en una linea de modificaciones que registra cada uno.
+
+git commit -m "(description of the action)"
+
+git add '*.txt' : agrega multiples archivos al "staging area", el simbolo '*'
+es para indicar que no importa el nombre.
+
+git log: ver el historial de cambios
+
+git remote add (name-of-remote) (URL) : el nombre del 'remote' puede ser 
+cualquiera que se te ocurra, pero es muy comun llamar al que tienes como 
+principal 'origin'
+
+git push -u origin master: el comando push le dice a git donde colocar 
+nuestros cambios realizados 'commits'. '-u' le dice que recuerde los 
+parametros, asi la siguiente vez que se utilize la funcion, no hay
+necesidad de escribir el destino y el origen( en este caso el 'remote'es 
+'origin' y 'master' es el 'branch' por default que estamos utilizando.  
+
+git stash --------> algunas veces cuando se desea bajar los cambios realizados     
+git stash apply -->por  los participantes en el desarrollo de la aplicacion
+                   tendras cambios que, tal vez no se quieran comentar aun. 
+                   una opcion es utilizar estos comandos
+
+HEAD: es un puntero que contiene la direccion de los diferentes "commits" que
+se han realizado. por definicion, HEAD apunta hacia el mas reciente 'commit'.
+puede ser utilizado como referencia rapida para accesar a el sin tener que
+utilizar la SHA.
+
+git diff HEAD : nos permite ver las diferencias en el repositorio con 
+respecto a lo que se tenia antes de bajar los cambios realizados en el repo.
+otro uso de 'diff' es para mirar cambios entre archivos que ya se encuentran 
+en el staging area.
+
+git diff --staged : permite ver los cambios que se han realizado en el 
+'staging area'.
+
+git reset (archivo) : permite quitar el archivo del staging area.
+
+git checkout -- <target> : permite ver todos los cambios hasta el ultimo 
+'commit' para el archivo 'target'
+ 
+git branch <name branch> : cuando los desarrolladores estan trabajando
+en una 'feature' o 'bug' ellos van, frecuentemente, a crear una copia
+(aka.branch) de su codigo en el que pueden hacer 'commints' por separado.
+Una vez que terminaron, unen el branch(rama) hacia el branch master.
